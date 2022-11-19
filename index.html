@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Desafío 5 :: ToDo List</title>
+  <link rel="stylesheet" href="assets/css/estilos.css">
+</head>
+<body>
+  <main>
+    <h1>Todo List</h1>
+    <input type="text" id="tarea" name="tarea" placeholder="Ingresa una nueva tarea">
+    <input type="button" id="guardar" name="guardar" value="Agregar">
+    <br>
+    <section class="contenedor">
+      <table>
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Tarea</th>
+            <th></th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody id="listado_tareas">
+        </tbody>
+      </table>
+    </section>
+    <section class="contenedor" id="status">
+      <p>Total: 0</p>
+      <p>Realizadas: 0</p>
+    </section>
+  </main>
+  <script src="assets/js/index.js"></script>
+</body>
+</html>

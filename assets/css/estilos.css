@@ -1,0 +1,43 @@
+body{background-color:#E5E7E9 ;
+display:flex;
+justify-content: center;
+font-size: 20px;
+}
+
+#tarea{
+    padding: 12px 40px;   
+}
+#guardar{
+    padding: 10px;
+    width: 45%;
+    background:#138D75 ;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 0;  
+}
+#status{display: flex;
+flex-direction: column;
+line-height: normal;}
+  
+section{display: flex;
+flex-direction: row;}
+
+section>table
+
+  input {
+    margin: 0;
+    border: none;
+    border-radius: 0;
+    width: 75%;
+    padding: 10px;
+    float: left;
+    font-size: 16px;
+  }
+  
+  
+  #guardar:hover {
+    background-color: #bbb;
+  }
